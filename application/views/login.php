@@ -31,7 +31,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-5">
-          <form class="space-mid" action="index.html" method="post">
+          <form class="space-mid" action="<? echo base_url("dashboard"); ?>" method="post">
             <div class="form-group">
               <label>Username</label>
               <input type="text" class="form-control" name="" value="" placeholder="Enter Email or RM Number">
